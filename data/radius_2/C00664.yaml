@@ -1,0 +1,660 @@
+!!python/object:networkx.classes.graph.Graph
+adj: &id037
+  0:
+    1: &id001
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    2: &id002
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+    3: &id003
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  1:
+    0: *id001
+    4: &id004
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    5: &id005
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  2:
+    0: *id002
+    6: &id006
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    7: &id007
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  3:
+    0: *id003
+    8: &id008
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+    9: &id009
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  4:
+    1: *id004
+    10: &id010
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    11: &id012
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  5:
+    1: *id005
+    12: &id013
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  6:
+    2: *id006
+    10: &id011
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  7:
+    2: *id007
+    13: &id014
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  8:
+    3: *id008
+    13: &id015
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  9:
+    3: *id009
+  10:
+    4: *id010
+    6: *id011
+  11:
+    4: *id012
+    14: &id016
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  12:
+    5: *id013
+  13:
+    7: *id014
+    8: *id015
+    15: &id017
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  14:
+    11: *id016
+    16: &id018
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  15:
+    13: *id017
+  16:
+    14: *id018
+    17: &id019
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+    18: &id020
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  17:
+    16: *id019
+    19: &id021
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  18:
+    16: *id020
+    20: &id022
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  19:
+    17: *id021
+    21: &id023
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  20:
+    18: *id022
+    21: &id024
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [12]
+  21:
+    19: *id023
+    20: *id024
+    22: &id025
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  22:
+    21: *id025
+    23: &id026
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    24: &id027
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  23:
+    22: *id026
+    25: &id028
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  24:
+    22: *id027
+  25:
+    23: *id028
+    26: &id029
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    27: &id030
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  26:
+    25: *id029
+    28: &id031
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  27:
+    25: *id030
+    29: &id032
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    30: &id033
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  28:
+    26: *id031
+    31: &id034
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+  29:
+    27: *id032
+  30:
+    27: *id033
+  31:
+    28: *id034
+    32: &id035
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    33: &id036
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  32:
+    31: *id035
+  33:
+    31: *id036
+adjlist_dict_factory: &id038 !!python/name:__builtin__.dict ''
+edge: *id037
+edge_attr_dict_factory: *id038
+graph: {}
+node:
+  0:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 772509186469
+    prd2: 3089189120040008273
+    prm0: 241
+    prm1: 5503
+    prm2: 43283
+  1:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 3-3-07-0
+    prd1: 547957949317
+    prd2: 735111660819380543
+    prm0: 229
+    prm1: 5039
+    prm2: 37967
+  2:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 483572357987
+    prd2: 472107839179723133
+    prm0: 241
+    prm1: 4787
+    prm2: 36187
+  3:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 343093237231
+    prd2: 144277655757916841
+    prm0: 241
+    prm1: 4229
+    prm2: 31817
+  4:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 3-3-06-1
+    prd1: 353166419989
+    prd2: 203167735143769199
+    prm0: 227
+    prm1: 4253
+    prm2: 33073
+  5:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 944018837
+    prd2: 3755024014817
+    prm0: 191
+    prm1: 1237
+    prm2: 6907
+  6:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 2-2-07-1
+    prd1: 1335885413
+    prd2: 19152284925079
+    prm0: 179
+    prm1: 1637
+    prm2: 11321
+  7:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 2-3-07-0
+    prd1: 2163459169
+    prd2: 80846980005287
+    prm0: 193
+    prm1: 2287
+    prm2: 17333
+  8:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 2-3-07-0
+    prd1: 2163459169
+    prd2: 71422995287729
+    prm0: 193
+    prm1: 2287
+    prm2: 16631
+  9:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 1-2-08-0
+    prd1: 3887089
+    prd2: 1737615749
+    prm0: 127
+    prm1: 641
+    prm2: 3863
+  10:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 2
+    prd0: 2-2-06-2
+    prd1: 1216105057
+    prd2: 15518998014889
+    prm0: 173
+    prm1: 1493
+    prm2: 10391
+  11:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 2
+    prd0: 2-2-06-2
+    prd1: 1216105057
+    prd2: 15518998014889
+    prm0: 173
+    prm1: 1493
+    prm2: 10391
+  12:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 1-2-07-1
+    prd1: 2438879
+    prd2: 293378053
+    prm0: 113
+    prm1: 487
+    prm2: 1471
+  13:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 179567111027
+    prd2: 15433159861644307
+    prm0: 241
+    prm1: 3229
+    prm2: 24337
+  14:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 2-2-07-1
+    prd1: 1335885413
+    prd2: 17399892863833
+    prm0: 179
+    prm1: 1637
+    prm2: 10891
+  15:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 1
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 2
+    prd0: 1-1-07-2
+    prd1: 1660249
+    prd2: 258607381
+    prm0: 83
+    prm1: 283
+    prm2: 1399
+  16:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 379274680019
+    prd2: 123723752340944237
+    prm0: 241
+    prm1: 4349
+    prm2: 31159
+  17:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 1679256911
+    prd2: 34739838089651
+    prm0: 191
+    prm1: 1999
+    prm2: 13997
+  18:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 1679256911
+    prd2: 34739838089651
+    prm0: 191
+    prm1: 1999
+    prm2: 13997
+  19:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 1679256911
+    prd2: 39404833593067
+    prm0: 191
+    prm1: 1999
+    prm2: 14437
+  20:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 1679256911
+    prd2: 39404833593067
+    prm0: 191
+    prm1: 1999
+    prm2: 14437
+  21:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: true
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 510643563601
+    prd2: 401506612380781081
+    prm0: 241
+    prm1: 4933
+    prm2: 35393
+  22:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 318205644893
+    prd2: 112184018059963813
+    prm0: 241
+    prm1: 4129
+    prm2: 30773
+  23:
+    atomic_num: 7
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 2-2-07-1
+    prd1: 1752866987
+    prd2: 78514972046279
+    prm0: 179
+    prm1: 2081
+    prm2: 17159
+  24:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 1-2-08-0
+    prd1: 3887089
+    prd2: 1696527649
+    prm0: 127
+    prm1: 641
+    prm2: 3797
+  25:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 3-3-06-1
+    prd1: 384563348863
+    prd2: 178454662100324513
+    prm0: 227
+    prm1: 4391
+    prm2: 32621
+  26:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 2
+    prd0: 2-2-06-2
+    prd1: 1175341759
+    prd2: 14396804970607
+    prm0: 173
+    prm1: 1453
+    prm2: 10091
+  27:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 162418463453
+    prd2: 12052144384893607
+    prm0: 241
+    prm1: 3061
+    prm2: 23689
+  28:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 2
+    prd0: 2-2-06-2
+    prd1: 1247829797
+    prd2: 9696559905859
+    prm0: 173
+    prm1: 1553
+    prm2: 8681
+  29:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 1
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 1-1-08-1
+    prd1: 2267569
+    prd2: 639286789
+    prm0: 97
+    prm1: 457
+    prm2: 2459
+  30:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 1-2-08-0
+    prd1: 3887089
+    prd2: 1257706741
+    prm0: 127
+    prm1: 641
+    prm2: 3217
+  31:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 3
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 3-4-06-0
+    prd1: 123781472147
+    prd2: 3483084443721529
+    prm0: 241
+    prm1: 2767
+    prm2: 21991
+  32:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 1
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 1-1-08-1
+    prd1: 2267569
+    prd2: 577885183
+    prm0: 97
+    prm1: 457
+    prm2: 2351
+  33:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 1-2-08-0
+    prd1: 3887089
+    prd2: 1136907727
+    prm0: 127
+    prm1: 641
+    prm2: 3061
+node_dict_factory: *id038

@@ -1,0 +1,81 @@
+!!python/object:networkx.classes.graph.Graph
+adj: &id004
+  0:
+    1: &id001
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [1]
+    2: &id002
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [3]
+  1:
+    0: *id001
+    3: &id003
+      bond_type: !!python/object/new:rdkit.Chem.rdchem.BondType [2]
+  2:
+    0: *id002
+  3:
+    1: *id003
+adjlist_dict_factory: &id005 !!python/name:__builtin__.dict ''
+edge: *id004
+edge_attr_dict_factory: *id005
+graph: {}
+node:
+  0:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 4
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [2]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 2-4-06-0
+    prd1: 1036239367
+    prd2: 1293632347009
+    prm0: 199
+    prm1: 1319
+    prm2: 5641
+  1:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 2
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 2-3-06-1
+    prd1: 921984313
+    prd2: 1162500690889
+    prm0: 191
+    prm1: 1213
+    prm2: 5501
+  2:
+    atomic_num: 6
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 3
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [2]
+    is_aromatic: false
+    num_implicit_hs: 1
+    prd0: 1-3-06-1
+    prd1: 3735031
+    prd2: 495639311
+    prm0: 137
+    prm1: 613
+    prm2: 2087
+  3:
+    atomic_num: 8
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 1
+    explicit_valence: 2
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [3]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 1-2-08-0
+    prd1: 3080639
+    prd2: 435225613
+    prm0: 127
+    prm1: 599
+    prm2: 1613
+node_dict_factory: *id005

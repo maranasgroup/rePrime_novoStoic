@@ -1,0 +1,25 @@
+!!python/object:networkx.classes.graph.Graph
+adj: &id001
+  0: {}
+adjlist_dict_factory: &id002 !!python/name:__builtin__.dict ''
+edge: *id001
+edge_attr_dict_factory: *id002
+graph: {}
+node:
+  0:
+    atomic_num: 16
+    chiral_tag: !!python/object/new:rdkit.Chem.rdchem.ChiralType [0]
+    degree: 0
+    explicit_valence: 0
+    formal_charge: 0
+    hybridization: !!python/object/new:rdkit.Chem.rdchem.HybridizationType [4]
+    is_aromatic: false
+    num_implicit_hs: 0
+    prd0: 0-0-016-0
+    prd1: 4
+    prd2: 4
+    prd3: 4
+    prm0: 2
+    prm1: 2
+    prm2: 2
+node_dict_factory: *id002
