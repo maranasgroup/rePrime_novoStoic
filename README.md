@@ -1,12 +1,11 @@
 ## Pathway synthesis using de novo steps through uncharted biochemical spaces
-###. rePrime
+### rePrime
 Requirement:
 ===========
 1. RDkit (http://www.rdkit.org/)
 2. pandas (https://pandas.pydata.org/)
 
-###. novoStoic
-todo: use python pulp to generalized the formulation
+### novoStoic
 Requirement:
 ===========
 1. GAMS (https://www.gams.com/)
