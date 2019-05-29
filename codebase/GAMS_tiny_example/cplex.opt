@@ -1,0 +1,7 @@
+epopt 1.0000001e-8
+epint 1.0000001e-8
+bndstrenind 1
+workmem 2500
+threads 1
+cliques 3
+mipsearch 0

@@ -1,0 +1,11 @@
+*** novoStoic output reactions and rules ***
+
+known reactions and flux:
+
+'R09280      '                                   1.00000000
+
+
+reaction rule and flux:
+
+'R00713      '                                   -1.00000000
+'R03544      '                                   2.00000000
